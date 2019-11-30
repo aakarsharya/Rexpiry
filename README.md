@@ -1,6 +1,5 @@
 # Rexpiry
-Waterloo EngHack Project
-
+![](images/rexpiry.png)
 ## What is Rexpiry?
 It is hard to keep track of expiring food items, if only there was a way to keep track...
 Rexpiry is an iOS application that scans your receipt for produce items and sets reminders that tell you when each item is expiring.
