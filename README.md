@@ -1,5 +1,16 @@
 # Rexpiry
-EngHack Project
+Waterloo EngHack Project
 
-### What it does
-The app lets you take pictures of all your receipts and uploads the fresh foods as well as the expiry dates to a local database. If there are remaining items on the receipt they can be added manually and the expiry date is found automatically by clicking one button. Once food is nearing its expiry date the app sends a notification which tells the user which foods are expiring and in how long.
+## What is Rexpiry?
+It is hard to keep track of expiring food items, if only there was a way to keep track...
+Rexpiry is an iOS application that scans your receipt for produce items and sets reminders that tell you when each item is expiring.
+
+## How it Works
+We used the Tesseract OCR (optical character recognition) API to scan the receipt for produce items. After scanning, the app queries our MySQL database hosted on an Apache Server through xampp to find out when each item will expire. Finally, the app sets alerts on your iPhone that remind you when a certain produce item is nearing its expiry date.
+
+## Tech Stack
+- Swift
+- MySQL
+- PHP
+- Tesseract API
+- Apache
